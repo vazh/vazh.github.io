@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Examples and code for displaying images in posts.">
+    <meta property="og:title" content="A Post with Images">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2013-05-22">
+    
+    <meta property="og:description" content="Examples and code for displaying images in posts.">
+    <meta property="og:url" content="https://vazh.github.io/posts/sample-post-images/">
+    <meta property="og:site_name" content="VAZH">
+    
+    <meta property="og:tags" content="sample post">
+    
+    <meta property="og:tags" content="images">
+    
+    <meta property="og:tags" content="test">
+    
+    <meta name="generator" content="Hugo 0.17" />
+    <title>A Post with Images &middot; VAZH</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://vazh.github.io/css/style.css">
+    <link href="" rel="alternate" type="application/rss+xml" title="VAZH" />
+
+    
+    
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://vazh.github.io">VAZH</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://vazh.github.ioabout">About</a></li>
+				
+					<li><a href="https://vazh.github.io">Blog</a></li>
+				
+					<li><a href="https://vazh.github.iotutorial/">Tutorials</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="https://vazh.github.io">VAZH</a></h1>
+		
+		
+		
+			<small class="text-center center-block">a personal blog to contain my way of doing things, primarily around computer &amp; programming</small>
+		
+		
+		
+			<img id="profile-pic" src="https://vazh.github.io/img/profile.JPG" alt="My Picture" class="img-circle center-block">
+		
+		<div id="social" class="text-center">
+			<a href="https://twitter.com/vazhdrevo"><i class="fa fa-twitter fa-2x"></i></a>
+			<a href="https://www.linkedin.com/in/muhammad-hariz-faza"><i class="fa fa-linkedin fa-2x"></i></a>
+			<a href="https://github.com/vazh"><i class="fa fa-github fa-2x"></i></a>
+			<a href="mailto:m.hariz.faza@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+		</div>
+		<div id="links" class="text-center">
+			
+			
+				<a href="https://vazh.github.ioabout">About</a>
+			
+				<a href="https://vazh.github.io">Blog</a>
+			
+				<a href="https://vazh.github.iotutorial/">Tutorials</a>
+			
+		</div>
+	</div>
+</div>
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+<main>
+	<header>
+		<h1>A Post with Images</h1>
+	</header>
+
+	<article>
+		
+
+<p>Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use <code>figure</code> with the appropriate <code>class</code>. Each instance of <code>figure</code> is auto-numbered and displayed in the caption.</p>
+
+<h2 id="figures-for-images-or-video">Figures (for images or video)</h2>
+
+<h3 id="one-up">One Up</h3>
+
+<figure>
+    <a href="//farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="//farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg" alt=""></a>
+    <figcaption><a href="//www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+</figure>
+
+<h3 id="two-up">Two Up</h3>
+
+<p>Apply the <code>half</code> class like so to display two images side by side that share the same caption.</p>
+<div class="highlight" style="background: #202020"><pre style="line-height: 125%"><span></span><span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">figure</span> <span style="color: #bbbbbb">class</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;half&quot;</span><span style="color: #d0d0d0">&gt;</span>
+	<span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">img</span> <span style="color: #bbbbbb">src</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;/images/image-filename-1.jpg&quot;</span> <span style="color: #bbbbbb">alt</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #d0d0d0">&gt;</span>
+	<span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">img</span> <span style="color: #bbbbbb">src</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;/images/image-filename-2.jpg&quot;</span> <span style="color: #bbbbbb">alt</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #d0d0d0">&gt;</span>
+	<span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">figcaption</span><span style="color: #d0d0d0">&gt;</span>Caption describing these two images.<span style="color: #d0d0d0">&lt;/</span><span style="color: #6ab825; font-weight: bold">figcaption</span><span style="color: #d0d0d0">&gt;</span>
+<span style="color: #d0d0d0">&lt;/</span><span style="color: #6ab825; font-weight: bold">figure</span><span style="color: #d0d0d0">&gt;</span>
+</pre></div>
+
+<p>And you&rsquo;ll get something that looks like this:</p>
+
+<figure class="half">
+    <a href="//placehold.it/1200x600.jpg"><img src="//placehold.it/600x300.jpg" alt=""></a>
+    <a href="//placehold.it/1200x600.jpg"><img src="//placehold.it/600x300.jpg" alt=""></a>
+    <img src="//placehold.it/600x300.jpg" alt="">
+    <img src="//placehold.it/600x300.jpg" alt="">
+    <figcaption>Two images.</figcaption>
+</figure>
+
+<h3 id="three-up">Three Up</h3>
+
+<p>Apply the <code>third</code> class like so to display three images side by side that share the same caption.</p>
+<div class="highlight" style="background: #202020"><pre style="line-height: 125%"><span></span><span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">figure</span> <span style="color: #bbbbbb">class</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;third&quot;</span><span style="color: #d0d0d0">&gt;</span>
+	<span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">a</span> <span style="color: #bbbbbb">href</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;//placehold.it/1200x600.jpg&quot;</span><span style="color: #d0d0d0">&gt;&lt;</span><span style="color: #6ab825; font-weight: bold">img</span> <span style="color: #bbbbbb">src</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;//placehold.it/600x300.jpg&quot;</span> <span style="color: #bbbbbb">alt</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #d0d0d0">&gt;&lt;/</span><span style="color: #6ab825; font-weight: bold">a</span><span style="color: #d0d0d0">&gt;</span>
+	<span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">a</span> <span style="color: #bbbbbb">href</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;//placehold.it/1200x600.jpg&quot;</span><span style="color: #d0d0d0">&gt;&lt;</span><span style="color: #6ab825; font-weight: bold">img</span> <span style="color: #bbbbbb">src</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;//placehold.it/600x300.jpg&quot;</span> <span style="color: #bbbbbb">alt</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #d0d0d0">&gt;&lt;/</span><span style="color: #6ab825; font-weight: bold">a</span><span style="color: #d0d0d0">&gt;</span>
+	<span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">a</span> <span style="color: #bbbbbb">href</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;//placehold.it/1200x600.jpg&quot;</span><span style="color: #d0d0d0">&gt;&lt;</span><span style="color: #6ab825; font-weight: bold">img</span> <span style="color: #bbbbbb">src</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;//placehold.it/600x300.jpg&quot;</span> <span style="color: #bbbbbb">alt</span><span style="color: #d0d0d0">=</span><span style="color: #ed9d13">&quot;&quot;</span><span style="color: #d0d0d0">&gt;&lt;/</span><span style="color: #6ab825; font-weight: bold">a</span><span style="color: #d0d0d0">&gt;</span>
+	<span style="color: #d0d0d0">&lt;</span><span style="color: #6ab825; font-weight: bold">figcaption</span><span style="color: #d0d0d0">&gt;</span>Caption describing these three images.<span style="color: #d0d0d0">&lt;/</span><span style="color: #6ab825; font-weight: bold">figcaption</span><span style="color: #d0d0d0">&gt;</span>
+<span style="color: #d0d0d0">&lt;/</span><span style="color: #6ab825; font-weight: bold">figure</span><span style="color: #d0d0d0">&gt;</span>
+</pre></div>
+
+<p>And you&rsquo;ll get something that looks like this:</p>
+
+<figure class="third">
+    <a href="//placehold.it/1200x600.jpg"><img src="//placehold.it/600x300.jpg" alt=""></a>
+    <a href="//placehold.it/1200x600.jpg"><img src="//placehold.it/600x300.jpg" alt=""></a>
+    <a href="//placehold.it/1200x600.jpg"><img src="//placehold.it/600x300.jpg" alt=""></a>
+    <a href="//placehold.it/1200x600.jpg"><img src="//placehold.it/600x300.jpg" alt=""></a>
+    <a href="//placehold.it/1200x600.jpg"><img src="//placehold.it/600x300.jpg" alt=""></a>
+    <a href="//placehold.it/1200x600.jpg"><img src="//placehold.it/600x300.jpg" alt=""></a>
+    <figcaption>Three images.</figcaption>
+</figure>
+
+	</article>
+</main>
+
+<div id="bottom-nav" class="text-center center-block">
+	<a href=" https://vazh.github.io" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
+</div>
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'vazhdrevo';
+    var disqus_identifier = 'https:\/\/vazh.github.io\/posts\/sample-post-images\/';
+    var disqus_title = 'A Post with Images';
+    var disqus_url = 'https:\/\/vazh.github.io\/posts\/sample-post-images\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-87075507-1', 'auto');
+    ga('send', 'pageview');
+    window.baseURL = "https:\/\/vazh.github.io";
+  </script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  
+  
+  <script src="https://vazh.github.io/js/App.js"></script>
+  
+</body>
+</html>
